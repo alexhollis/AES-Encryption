@@ -1,0 +1,148 @@
+Starting AES Encryption...
+
+Step 1: Input File:
+
+Output Text: 
+
+THISISATESTFILEITISUSEDTOTESTMYPROGRAMISURELYHOPEITWORKSPROPERLYSOTHATIMAYGETAGOODGRADE         
+
+Step 2: Encryption:
+
+Key: EAGLE
+
+Input Text: 
+
+XHODMWAZPWXFOWIMTODYWEJESXEYEQCPXZKVASTWYRKWCLOVPMXWUCOWPXZTIRRJWSTNLXMMGJKITGRSSDMCEHE         
+
+Step 3: Padding:
+
+Output:
+
+XHOD
+MWAZ
+PWXF
+OWIM
+
+TODY
+WEJE
+SXEY
+EQCP
+
+XZKV
+ASTW
+YRKW
+CLOV
+
+PMXW
+UCOW
+PXZT
+IRRJ
+
+WSTN
+LXMM
+GJKI
+TGRS
+
+SDMC
+EHEA
+AAAA
+AAAA
+
+
+
+Step 4: Shift Rows:
+
+Output:
+
+XHOD
+WAZM
+XFPW
+MOWI
+
+TODY
+EJEW
+EYSX
+PEQC
+
+XZKV
+STWA
+KWYR
+VCLO
+
+PMXW
+COWU
+ZTPX
+JIRR
+
+WSTN
+XMML
+KIGJ
+STGR
+
+SDMC
+HEAE
+AAAA
+AAAA
+
+
+
+Step 5: Parity Bit:
+
+Output (in hexadecimal):
+
+d8 48 cf 44 
+d7 41 5a 4d 
+d8 c6 50 d7 
+4d cf d7 c9 
+d4 cf 44 59 
+c5 ca c5 d7 
+c5 59 53 d8 
+50 c5 d1 c3 
+d8 5a 4b 56 
+53 d4 d7 41 
+4b d7 59 d2 
+56 c3 cc cf 
+50 4d d8 d7 
+c3 cf d7 55 
+5a d4 50 d8 
+ca c9 d2 d2 
+d7 53 d4 4e 
+d8 4d 4d cc 
+4b c9 47 ca 
+53 d4 47 d2 
+53 44 4d c3 
+48 c5 41 c5 
+41 41 41 41 
+41 41 41 41 
+
+
+Step 6: MixColumns:
+
+Output (in hexadecimal):
+
+5c ca ec c9 
+d7 54 cb 62 
+f7 43 45 5e 
+c4 d7 14 f5 
+72 5c d6 79 
+e7 fd 63 7c 
+f4 f5 dd f0 
+85 7d 66 9a 
+43 73 f7 de 
+c8 61 65 7c 
+71 f9 dd 57 
+7c 90 39 d7 
+ce 57 4b 40 
+77 7c dc e1 
+fc d8 fa 67 
+4d d4 44 f9 
+de ca 64 57 
+fb 5e ea 43 
+d0 7a 47 f6 
+52 d2 1 f3 
+d8 54 c3 c9 
+5a 47 41 da 
+41 d0 41 d0 
+68 6b 5e 4a 
+
+
